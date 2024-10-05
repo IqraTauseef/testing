@@ -623,12 +623,10 @@ filter: var(--shadow-1);
            
   --purple-bg: #5c467e; /* Purple background for contact form */
   --text-color: #ffffff; /* White text color */
-  --highlight-color: #3b2c4b; /* Darker purple for buttons */
+  --text-sunglow: #ffc738;
   --input-bg-color: #ffffff; /* White background for inputs */
   --border-radius: 8px; /* Border radius */
   --padding: 20px; /* Padding */
-  --font-family: 'Arial', sans-serif; /* Font family */
-  --font-size: 1rem; /* Base font size */
 }
 .contact-section {
   display: flex;
@@ -661,12 +659,12 @@ filter: var(--shadow-1);
 }
 
 .info-box .icon {
-  color: var(--highlight-color);
+  color: var(--text-sunglow);
   margin-right: 10px;
 }
 
 .form-box {
-  background-color: var(--highlight-color);
+  background-color: rgba(128, 0, 128, 0.179);
   color: var(--text-color);
   padding: var(--padding);
   border-radius: var(--border-radius);
